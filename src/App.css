@@ -1,0 +1,36 @@
+body {
+  width: 375px;
+height: 777px;
+background: #141D2F;
+color: #fff;
+}
+
+img {
+  width: 70px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 70px;
+}
+
+.username {
+  color: #0079FF;
+  font-family: 'Space Mono';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info {
+  width: 279px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #141D2F;
+}
+
+.card {
+  width: 327px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #1E2A47;
+}
