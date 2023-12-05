@@ -5,6 +5,7 @@ import './App.css'
 function App() {
   const [user, setUser] = useState('octocat');
   const [fact, setFact] = useState('');
+  const [colorMode, setColorMode] = useState('dark');
   
   const fetchData = () => {
     Axios.get(`https://api.github.com/users/${user}`).then((res) => {
